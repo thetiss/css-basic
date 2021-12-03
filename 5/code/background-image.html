@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .box{
+      width: 1200px;
+      height: 1200px;
+      border:2px solid #899;
+      /* background-position / background-size e.g. 50px 100px / contain */
+      background: #f00 url("imgs/film.jpg") no-repeat 50px 100px / contain;
+      /* background-image: url('imgs/film.jpg'); */
+      /* background-repeat: no-repeat; */
+      /* X轴 Y轴 */
+      /* background-size: contain; */
+      font-size: 26px;
+    }
+    .text{
+      height: 132px;
+      width: 600px;
+      background-color: #899;
+      border: 2px solid blue;
+      font: 16px/32px '';
+      text-indent: 2em;
+      text-decoration: underline;
+      /* word 强制不换行 */
+      white-space: nowrap;
+      /* overflow: visible; */
+    }
+    .title{
+      height: 150px;
+      width: 600px;
+      background-color: #fff;
+      border: 2px solid blue;
+      font: 60px/120px '';
+      text-align: center;
+      /* X偏移 Y偏移 模糊半径 */
+      text-shadow: 3px 3px 5px #f00;
+    }    
+
+  </style>
+</head>
+<body>
+  <div class="title">新闻展示</div>
+  <div class="text">字体/文本截至12月1日24时，内蒙古自治区满洲里市本轮疫情累计报告本土新冠肺炎确诊病例183例，其中市区151例、扎赉诺尔区32例。为防止疫情扩散蔓延，满洲里市划定封控小区47个、封控平房区8处，全部实施“足不出户”管控；市内其余区域划为管控区域，实施“足不出区”管理。</div>
+  <!-- <div class="box">/* background-position / background-size */ <br>background: #f00 url("imgs/film.jpg") no-repeat 50px 100px / contain;</div> -->
+</body>
+</html>
